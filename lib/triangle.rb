@@ -26,6 +26,8 @@ class Triangle
     raise TriangleError if real_triangle.include?(false)
   end
 
+#Write a custom error class, TriangleError and inherit it from StandardError. This custom error class should be defined in the same file as the Triangle class, inside the Triangle class definition. 
+
   class TriangleError < StandardError
   end
 
