@@ -17,7 +17,7 @@ class Triangle
     end
   end
 
-
+# The kind method should raise a custom error, TriangleError if the triangle is invalid
 # The sum of the lengths of any two sides of a triangle always exceeds the length of the third side. This is a principle known as the triangle inequality. Further, each side must be larger than 0.
 
   def validate_triangle
