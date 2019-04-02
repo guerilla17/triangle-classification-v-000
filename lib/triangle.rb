@@ -8,7 +8,7 @@ class Triangle
     @c = c
   end
 
-#Give your Triangles an instance method, kind that returns, as a symbol, its type (:equilateral, :isosceles, :scalene)
+#Give your Triangles an instance method, #kind, that returns, as a symbol, its type (:equilateral, :isosceles, :scalene)
 
   def kind
     validate_triangle
