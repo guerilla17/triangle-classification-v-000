@@ -1,3 +1,5 @@
+#Write a Triangle class that accepts three arguments on initialization. Each argument is a length of one of the three sides of the triangle.
+
 class Triangle
   attr_reader :a, :b, :c
   def initialize(a, b, c)
